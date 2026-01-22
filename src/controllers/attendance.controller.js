@@ -1,6 +1,6 @@
 
 import Attendance from "../models/Attendance.model.js";
-import Worker from "../models/worker.model.js";
+import Worker from "../models/Worker.model.js";
 
 export const markAttendance = async (req, res) => {
   try {
