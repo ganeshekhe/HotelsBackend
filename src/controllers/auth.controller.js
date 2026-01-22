@@ -2,7 +2,7 @@
 
 
 import User from "../models/User.model.js";
-import Tenant from "../models/Tenant.model.js";
+import Tenant from "../models/tenant.model.js";
 import AuditLog from "../models/AuditLog.model.js";
 import jwt from "jsonwebtoken";
 
