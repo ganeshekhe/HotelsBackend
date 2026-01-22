@@ -1,7 +1,7 @@
 
 
 
-import Tenant from "../models/Tenant.model.js";
+import Tenant from "../models/tenant.model.js";
 
 /* =========================
    GET ALL TENANTS

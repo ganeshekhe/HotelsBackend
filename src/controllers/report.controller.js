@@ -7,7 +7,7 @@ import PDFDocument from "pdfkit";
 import fs from "fs";
 import Recipe from "../models/Recipe.model.js";
 import MaterialWaste from "../models/MaterialWaste.model.js";
-import Tenant from "../models/Tenant.model.js";
+import Tenant from "../models/tenant.model.js";
 
 // 🟢 Daily / Monthly Sales Summary (Tenant Wise)
 export const getSalesSummary = async (req, res) => {
