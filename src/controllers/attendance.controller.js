@@ -1,5 +1,5 @@
 
-import Attendance from "../models/attendance.model.js";
+import Attendance from "../models/Attendance.model.js";
 import Worker from "../models/worker.model.js";
 
 export const markAttendance = async (req, res) => {
